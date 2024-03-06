@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+*
+{
+    margin: 0%;
+}
+img
+{
+    width: 40px;
+    padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1
+{
+    color: aqua;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: -0.05em;
+    word-spacing: -0.05em;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3
+{
+  margin-right:auto;
+  margin-top: 17px;
+  color: rgb(14, 240, 240)
+}
+header
+{
+    background-color:floralwhite;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position:fixed;
+   width: 100%;
+   box-shadow: 0px 22px 150px 18px rgba(0,0,0,0.50);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul
+{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   list-style: none;
+   margin-right: 90px;
+   text-size-adjust:auto;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+nav li
+{
+   
+    padding:20px 10px;
+   
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a
+{
+ text-decoration: none;
+ color:black;
 }
+
+li
+{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li::marker
+{
+  color: aqua;
+  font-size: 1.3em;
+}
+
+ol
+{
+    margin-top: 10px;
+}
+
+.maincontent
+{
+background-color:whitesmoke;
+padding: 80px;
+background-image: url(./images/react.png) ;
+background-repeat: no-repeat;
+background-position-x: 1000px;
+background-position-y: 160px;
+
+
+
+
+}
+
+p
+{
+    text-size-adjust:auto;
+    font-size:large;
+    font-family: Arial, sans-serif;
+}
+
+footer
+{
+    background-color:floralwhite;
+    padding: 20px;
+    height:100%;
+}
+
+footer center
+{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
